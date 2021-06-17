@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+}
+body{
+    font-family: 'Merriweather', serif;
+    font-size:16px;
+}
+img{
+    max-width:100%;
+    opacity: 1;
+}
+h1{
+
+font-size: 35px;
+
+padding-bottom: 20px;
+}
+p{
+    
+font-size: 17px;
+    
+line-height: 1.6;
+    
+text-align: justify;
+    
+margin-bottom: 10px;
+}
+
+
+
+.containar{
+    width:1200px;
+    margin:auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.i-center{
+    align-items:center;
+}
+
+
+header{
+    background: #70d6c34f;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo a{
+    font-size:20px;
+    font-weight: bold;
+    color: #044432;
+    text-decoration:none;
+}
+nav{
+    flex-basis: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 28px 17px;
+    display: block;
+    font-weight: bold;
+    color: #2c3e50;
+    transition: all 0.3s cubic-bezier(0.68, 0.32, 1, 1);
+}
+nav ul li a:hover{
+    background:#2c3e50;
+    color:white;
+    
+}
+
+.banner-section{border-radius: 24px;margin: 50px 0;}
+.banner-section img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 13px 7px white;
+}
+
+.about-section{
+background: #fb00ff14;
+padding: 60px;
+}
+
+.footer-section{
+
+background: #100e13d9;
+
+color: white;
+
+padding: 10px 0;
+}
+.footer-section p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.blog-section{
+    padding: 60px 0;
+    background: #1f4d50de;
+    color: wheat;
+}
+.col-1-4{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.card{
+    box-shadow: 0 0 10px 5px #f1f1f1a6;
+}
+.card-body{
+    padding: 10px 10px;
+}
+.card-body ul{
+    justify-content: space-between;
+    list-style: none;
+}
+.card-body p{
+    font-size: 12px;
+    opacity: 0.8;
+}
+h4{
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.social-icon{
+    position: fixed;
+    left: 0;
+    transform: translate(0,-50%);
+    top: 50%;
+}
+.social-icon li{
+    margin-bottom: 3px;
+}
+.social-icon li a{
+    background: #100e13d9;
+    color:white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    border:1px solid #100e13d9;
+}
+.social-icon li a:hover{
+    color: #100e13d9;
+    background:white;
+}
+
+
+.contact-section{
+    max-width:1000px;
+    margin:auto;
+}
+.contact-form {
+    border-radius: 5px;
+    background-color: #F97C44;
+    padding: 20px;
+    width: 800px;
+    margin: 90px 44px;
+}
+input[type=text],select,textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:16px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .servics-section{
+    margin-top: 40px;
+}
+  .card-s i{
+      font-size: 70px;
+  }
+  .card-s{
+      background:#01CDFF;
+      padding: 65px 15px;
+      text-align: center;
+      color: white;
+  }
+  .card-s h4{
+    font-size: 25px;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+  .card-s p{
+    font-size: 15px;
+    text-align: center;
+    margin: 14px 0;
+}
+.full-card{
+    flex-basis: 33.33%;
+    padding: 20px;
+}
+h3 {
+    
+    font-family: "Baloo", Sans-serif;
+    font-size: 70px;
+    text-shadow: 6px 8px 8px rgb(0 0 0 / 20%);
+    text-align: center;
+    margin: 30px;
+}
+.white{
+    color:white;
+}
+.blue{
+    color: #01CDFF;
+}
+.black{
+    color:#2c3e50;
+}
+.green{
+    color: #2ecc71;
+}
+@media(max-width:1406px){
+    .containar{
+        width:850px;
+    }
+    .contact-form {
+        width: 750px;
+        margin: 20px auto;
+    }
+    .contact-section {
+        max-width: 850px;
+    }
+    .about-section {
+        padding: 40px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+@media(max-width:991px){
+    .containar {
+        width: 650px;
+    }
+    .contact-section {
+        max-width: 650px;
+    }
+    .contact-form {
+        width: 550px;
+        margin: 40px auto;
+    }
+    .col-1-4 {
+        flex-basis: 50%;
+        padding: 15px;
+    }
+    .card-body ul {
+        margin-bottom: 10px;
+    }
+    .card-body h4 {
+        margin: 19px 0;
+        font-size: 18px;
+    }
+    .card-s h4 {
+        font-size: 20px;
+        margin: 40px 0 0 0;
+    }
+    .full-card {
+        padding: 15px;
+    }
+    .card-s {
+        padding: 35px 15px;
+    }
+}
+@media(max-width:767px){
+    .containar {
+        width: 500px;
+    }
+    .logo {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .logo a {
+        font-size: 30px;
+    }
+    nav {
+        flex-basis: 100%;
+    }
+    .contact-section {
+        max-width: 580px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    h3 {
+         font-size: 40px;
+    }
+    .full-card {
+        flex-basis: 50%;
+    }
+    p {
+        font-size: 15px;
+        padding: 20px;
+    }
+}
+@media(max-width:575px){
+    .containar {
+        width: 400px;
+    }
+    .card-s p {
+        font-size: 18px;
+    }
+    .card-s h4 {
+        font-size: 30px;
+    }
+    .card-s {
+        padding: 60px 45px;
+    }
+    .full-card {
+        flex-basis: 100%;
+    }
+    .col-1-4 {
+        flex-basis: 100%;
+        padding: 45px;
+    }
+    .card-body p {
+        padding: 0;
+    }
+    .footer-section p {
+        font-size: 11px;
+    }
+    .about-section {
+        padding: 40px 0;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    nav ul li a {
+        padding: 10px 140px;
+    }
+    .logo {
+        margin: 25px 0;
+    }
+    nav ul li {
+        border-bottom: 1px solid;
+    }
+}
